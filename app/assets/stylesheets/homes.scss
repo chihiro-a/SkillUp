@@ -1,0 +1,232 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer {
+  background-color: #EC715F;
+}
+
+header {
+  height: 70px;
+}
+
+.container-header-group {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+nav {
+  margin: 0 0 0 auto;
+}
+
+.nav-list-item {
+  display: inline-block;
+  color: #FAFAFA;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: 70px;
+}
+
+footer {
+  height: 60px;
+  text-align: center;
+}
+
+.footer-text {
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+#mv {
+  background-image: url(img2/mv.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 670px;
+}
+
+.container {
+  text-align: center;
+}
+
+.mv-title {
+  font-size: 64px;
+  color: #FAFAFA;
+  padding-top: 200px;
+  padding-bottom: 10px;
+}
+
+.mv-text {
+  color: #FAFAFA;
+  font-size: 20px;
+}
+
+.heading {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  position: relative;
+}
+
+.heading:after {
+  position: absolute;
+  bottom: -8px;
+  left: calc(50% - 30px);
+  width: 70px;
+  height: 3px;
+  content: '';
+  background: #EC715F;
+}
+
+#portfolio,#profile {
+  background-color: #ECEFF1;
+}
+
+.heading-text {
+  font-size: 20px;
+  color: #000000;
+  padding: 30px 0 30px 0;
+}
+
+.production-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.production {
+  width: 300px;
+  height: 250px;
+}
+
+.bg1 {
+  background-image: url(img2/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.bg2 {
+  background-image: url(img2/websuku.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.bg3 {
+  background-image: url(img2/write.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg4 {
+  background-image: url(img2/webcamp.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg5 {
+  background-image: url(img2/talk.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.bg6 {
+  background-image: url(img2/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#feature {
+  margin: 0 auto;
+}
+
+.strength-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  width: 980px;
+}
+
+.strength {
+  width: 320px;
+  height: auto;
+}
+
+.strength-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.strength:nth-child(2) {
+  margin: 0 10px;
+}
+
+
+.strength-title {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.fas {
+  font-size: 60px;
+}
+
+.profile-group {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+
+.left-content {
+  width: 512px;
+}
+
+.my-face {
+  background-image: url(img2/my-icon.jpg);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.right-content {
+  width: 512px;
+  text-align: left;
+}
+
+.description-title {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.description-text:nth-child(1) {
+  padding-bottom: 20px;
+}
+
+.description-text {
+  font-size: 16px;
+}
