@@ -270,3 +270,35 @@ footer {
 .tel{
   padding-top: 20px;
 }
+
+@media screen and (max-width:768px) {
+  header {
+    height: 50px;
+  }
+  .container-header-group {
+    width: 90%;
+    height: 50px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .menu-box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FAFAFA;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+  }
+  .list-bar:first-child{
+    margin-top: 10px;
+  }
+  .list-bar{
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #FAFAFA;
+  }
+}
