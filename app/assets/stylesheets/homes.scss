@@ -339,5 +339,18 @@ footer {
     margin-right: auto;
     margin-left: auto;
   }
+  .strength-group {
+    width: 90%;
+    display: flex;
+  }
+  .strength {
+    margin: 0 auto;
+  }
+  .strength:nth-child(2) {
+    margin: 0 auto;
+  }
+  .strength-title{
+    padding: 10px 0;
+  }
 
 }
