@@ -352,5 +352,24 @@ footer {
   .strength-title{
     padding: 10px 0;
   }
-
+  .profile-group {
+    display: flex;
+    width: 100%;
+  }
+  .right-content{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .my-face{
+    margin: 0 auto;
+  }
+  .left-content{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .description-title{
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
 }
