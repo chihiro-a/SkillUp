@@ -203,7 +203,6 @@ footer {
 
 .left-content {
   width: 50%;
-  background-color: red;
 }
 
 .my-face {
@@ -217,7 +216,6 @@ footer {
 .right-content {
   width: 50%;
   text-align: left;
-  background-color: blue;
 }
 
 .description-title {
@@ -244,7 +242,6 @@ footer {
 .left-contact-content{
   text-align: left;
   margin: 0 auto;
-  background-color: yellow;
   width: 130px;
 }
 
@@ -255,7 +252,6 @@ footer {
 
 .right-contact-content{
   width: 200px;
-  background-color: pink;
   margin: 0 auto;
 }
 
@@ -371,5 +367,12 @@ footer {
   .description-title{
     padding-top: 20px;
     padding-bottom: 5px;
+  }
+  .contact-group{
+    display: flex;
+    width: 100%;
+  }
+  .description-title{
+    text-align: center;
   }
 }
